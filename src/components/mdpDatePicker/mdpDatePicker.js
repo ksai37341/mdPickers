@@ -128,6 +128,7 @@ module.provider("$mdpDatePicker", function() {
                                     '<md-toolbar layout-align="start start" flex class="mdp-datepicker-date-wrapper md-hue-1 md-primary" layout="column">' +
                                         '<span class="mdp-datepicker-date" ng-click="datepicker.showCalendar()" ng-class="{ \'active\': !datepicker.selectingYear }">{{ datepicker.date.format(datepicker.displayFormat) }}</span> ' +
                                         '<span class="mdp-datepicker-year" ng-click="datepicker.showYear()" ng-class="{ \'active\': datepicker.selectingYear }">{{ datepicker.date.format(\'YYYY\') }}</span>' +
+                                        '<span class="mdp-datepicker-year-select-link" ng-click="datepicker.showYear()" >{{ > Select Year }}</span>' +
                                     '</md-toolbar>' +
                                 '</div>' +  
                                 '<div>' + 
