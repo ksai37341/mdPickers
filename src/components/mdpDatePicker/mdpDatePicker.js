@@ -31,7 +31,7 @@ function DatePickerCtrl($scope, $mdDialog, $mdMedia, $timeout, currentDate, opti
 	
 	this.yearItems = {
         currentIndex_: 0,
-        PAGE_SIZE: 5,
+        PAGE_SIZE: 10,
         START: (self.minDate ? self.minDate.year() : 1900),
         END: (self.maxDate ? self.maxDate.year() : 0),
         getItemAtIndex: function(index) {
